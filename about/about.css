@@ -1,0 +1,249 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+.main {
+    margin: 0px;
+    padding: 0px;
+}
+/*********Header Start**************/
+.header {
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    width: 100%;
+    background: #0b073a;
+   position: fixed;
+}
+.container {
+    margin: 0px auto;
+    width: 1170px;
+}
+.logo {
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    width: 30%;
+}
+.logo h1 {
+    color: #fff;
+    font-size: 35px;
+    font-family: system-ui;
+}
+
+.logo h1 b {
+    text-decoration: none;
+    color: #ff8f06;
+} 
+
+
+.nav {
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    width: 70%;
+}
+.nav ul {
+    margin: 5px 0px 0px 11pc;
+    padding: 2px;
+}
+.nav ul li {
+    margin:  36px 44px 8px 52px;
+    padding: 0px;
+    display: inline-block;
+}
+
+
+.nav ul li a {
+    margin: 0px;
+    padding: 3px 5px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: system-ui;
+    color: #ffff;
+    transition: 0.2s;
+}
+.nav ul li a:hover{
+    outline: 2px solid #e7823e;
+    font-weight: 700;
+}
+/********Header Close**************/
+
+/*********middle slioer start*********/
+.parallax {
+          
+    background-image: url("28466.jpg");
+    min-height: 700px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .sldier1{
+    margin: 12px;
+    
+  }
+
+  .contant1{
+margin: 0px;
+float: left;
+  }
+
+  .contant1 h1 {
+    margin: 14px 2px 5px 13px;
+    font-size: 5pc;
+    font-family: sans-serif;
+}
+
+.contant1 p {
+    margin: 1px 0px 0px 15px;
+    font-size: 20px;
+}
+
+.slider1 img{
+    height: 27pc;
+   
+}
+/*********middle slioer close*********/
+/*********card section**********/
+.card {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    max-width: 300px;
+    margin: 28px 0px 0px 7pc;
+    text-align: center;
+    font-family: arial;
+    float: left;
+}
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+  /*********card section**********/
+/************footer start***********/
+.footer{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    float: left;
+    background: #242626;
+}
+.footnav1{
+    width: 24%;
+    margin: 55px 0px 0px 0px ;
+    padding: 0px;
+    float: left;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    margin: 0px ;
+    padding: 0px;
+}
+
+.footnav1 ul li a{
+    color: #aba8b8;
+    font-family: system-ui;
+    margin: 0px;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.footnav1 ul li a:hover{
+    color: #0b073a;
+}
+
+.footnav2{
+    width: 24%;
+    margin: 55px 0px 0px 0px ;
+    padding: 0px;
+    float: left;
+}
+
+.footnav2 ul li a{
+    color: #aba8b8;
+    font-family: system-ui;
+    margin: 0px;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.footnav2 ul li a:hover{
+    color: #0b073a;
+}
+
+
+.footnav3{
+    width: 24%;
+    margin: 55px 0px 0px 0px ;
+    padding: 0px;
+    float: left;
+}
+
+.footnav3 ul li a{
+    color: #aba8b8;
+    font-family: system-ui;
+    margin: 0px;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.footnav3 ul li a:hover{
+    color: #0b073a;
+}
+
+
+.but{
+    margin: 55px 0px 0px 0px ;
+    padding: 0px ;
+    width: 25%;
+    float: left;
+}
+.but h1{
+    color: #fff;
+    font-size: 24px;
+    font-family: system-ui;
+    font-weight: 400;
+}
+.but a{
+    outline: 2px solid #fff;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: 1.2s;
+    cursor:pointer;
+}
+
+.but a:hover{
+    background-color:chocolate;
+    color: cornsilk;
+}
+/************footer close***********/
